@@ -5,5 +5,26 @@
 }
 
 body {
-    background-color: #094a5f;
+    background-color:#094a5f;
+}
+
+.bg_color_number {
+    background-color: #148bb3;
+}
+
+
+.bg_color_fizz {
+background-color: #0cd3a2 ;
+}
+
+.bg_color_buzz {
+background-color: #f4d069;
+}
+
+.bg_color_fizzbuzz {
+background-color: #ef436b;
+}
+
+.m_05 {
+    margin: 0.5rem;
 }

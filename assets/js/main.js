@@ -14,7 +14,7 @@ for (let i = 1; i <= 100; i++) {
         console.log(fizzBuzzReturn)
 
         //Stampo in pagina il risultato
-        const fizzBuzzCard = `<div class=col-2><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
+        const fizzBuzzCard = `<div class="col-1 bg_color_fizzbuzz m_05"><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
         listEl.innerHTML += fizzBuzzCard;
     }
     else if (i % 3 == 0) {
@@ -22,21 +22,21 @@ for (let i = 1; i <= 100; i++) {
         console.log(fizzBuzzReturn);
 
         //Stampo in pagina il risultato
-        const fizzBuzzCard = `<div class=col-2><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
+        const fizzBuzzCard = `<div class="col-1 bg_color_fizz m_05"><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
         listEl.innerHTML += fizzBuzzCard;
     } else if (i % 5 == 0) {
         const fizzBuzzReturn = "Buzz"
         console.log(fizzBuzzReturn);
 
         //Stampo in pagina il risultato
-        const fizzBuzzCard = `<div class=col-2><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
+        const fizzBuzzCard = `<div class="col-1 bg_color_buzz m_05"><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
         listEl.innerHTML += fizzBuzzCard;
     } else {
         const fizzBuzzReturn = i;
         console.log(fizzBuzzReturn);
 
         //Stampo in pagina il risultato
-        const fizzBuzzCard = `<div class=col-2><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
+        const fizzBuzzCard = `<div class="col-1 bg_color_number m_05"><div class="d-flex align-items-center justify-content-center fw-bold p-2 m-2 ">${fizzBuzzReturn}</div></div>`;
         listEl.innerHTML += fizzBuzzCard;
 
 
